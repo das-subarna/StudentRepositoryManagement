@@ -1,0 +1,37 @@
+Project Name: Team Future Student Database Management Portal (SDMP)
+
+How to run this Project
+
+//Note :: Hope xampp is installed in your system! Complete installation if not done.
+
+1. Download and Unzip file on your local system copy srms folder.
+
+2. Put srms folder inside root directory
+
+Database Configuration
+
+Open phpmyadmin
+Import srms_updated.sql (available inside zip package)
+
+For User
+
+Open Your browser put inside browser “http://localhost/srms”
+
+
+Details to view result  --
+Student name-- Subarna Das
+Roll ID : 10000
+Student Dept/Sem: CSE SEM-1
+
+For Admin Panel
+
+Open Your browser put inside browser “http://localhost/teamfuture”
+Login Details for admin : admin/admin
+Login Details for student : 10000/password
+
+
+Last minute changes --
+//These changes are visual only, no changes made to database
+`ClassName` varchar(80) works as Department in Frontend,
+`ClassNameNumeric` int(4) works as Year(1,2,3,4) in Frontend,
+`Section` works as Semester(SEM-1, SEM-2) in Frontend,
